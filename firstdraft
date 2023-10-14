@@ -11,3 +11,21 @@ total_inches_rainfall =0
 average_rainfall 
 
 
+nummber-of_months =0
+total_inches_of-rainfall =0
+number_of-years = int(input("Please enter the number of years")
+#Outer loop
+for year in rabge(1, number_of_years +1):
+    for month in range(1, 13):
+        rain_fall = input(F"Please input the inches for rainfall for each years{year}, Month{month}: ")
+        if rain_fall.isdigit();
+           total_inches-rainfall + =int(rain_fall)
+           number_of_months +=1
+         else:
+              print("invalid input. Please input a valid input.")
+# Average rainfall
+average_rainfall =total_number_rainfall/number_months
+
+print(F"\nNumber of months: {number_months}")
+print(F"Total inches of rainfall: {Total_rainfall} inches")
+print(F"Average rainfall per month: {average-rainfall} inches")
