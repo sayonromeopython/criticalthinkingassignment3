@@ -29,3 +29,8 @@ average_rainfall =total_number_rainfall/number_months
 print(F"\nNumber of months: {number_months}")
 print(F"Total inches of rainfall: {Total_rainfall} inches")
 print(F"Average rainfall per month: {average-rainfall} inches")
+
+
+
+
+
