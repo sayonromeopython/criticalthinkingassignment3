@@ -31,6 +31,38 @@ print(F"Total inches of rainfall: {Total_rainfall} inches")
 print(F"Average rainfall per month: {average-rainfall} inches")
 
 
+#part two
+#Romeo Sayon
+#Critical Thinking sassignment 3
+#loops program part 2
+# User input for number of books purchased
+number_of_books = int(input("Please Enter the number of books you purchased this month: "))
+
+# calculating the number of points base on number of book purchased
+if number_of_books == 0:
+    points = 0
+elif number_of_books == 2:
+    points = 5
+elif number_of_books == 4:
+    points = 15
+elif number_of_books == 6:
+    points = 30
+elif number_of_books >= 8:
+    points = 60
+else:
+    points = 0
+
+# printingout the number of points awarded
+print("Points awarded: " + str(points))
+
+
+
+
+
+
+
+
+
 
 
 
